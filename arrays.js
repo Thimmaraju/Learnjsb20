@@ -1,90 +1,175 @@
 
 
-raju = []  // empty array
+// raju = []  // empty array
 
-arr2 = [2,4,5,6,7,8,9]  // homogenious 
+// arr2 = [2,4,5,6,7,8,9]  // homogenious 
 
-arr3 = ["Raju", 4, "bangalore", true, null, undefined]
+// arr3 = ["Raju", 4, "bangalore", true, null, undefined]
 
-console.log(arr2.length)
+// console.log(arr2.length)
 
-console.log(arr3)
+// console.log(arr3)
 
-//index of the element 
+// //index of the element 
 
-console.log(arr3[7])
+// console.log(arr3[7])
 
-//Inbuilt arrays methods 
- 
-//concat() - to join the 2 different arrays 
+// //Inbuilt arrays methods 
 
-arr4 = arr2.concat(arr3)
+// //concat() - to join the 2 different arrays 
 
-console.log(arr4)
+// arr4 = arr2.concat(arr3)
 
-// reverse()
+// console.log(arr4)
 
-  arr6 = arr3.reverse()
+// // reverse()
 
-  console.log(arr6)
+//   arr6 = arr3.reverse()
 
-  numarr = [9,2,6,8,1,5]
+//   console.log(arr6)
 
-  sorted = numarr.sort()
+//   numarr = [9,2,6,8,1,5]
 
-  console.log(sorted)
+//   sorted = numarr.sort()
 
-  strarr = ["arun", "Arul", "Samarth", "deepu", "ramesh", "barath", "shashi"]
+//   console.log(sorted)
 
-  strsorted = strarr.sort()
+//   strarr = ["arun", "Arul", "Samarth", "deepu", "ramesh", "barath", "shashi"]
 
-  console.log(strsorted)
+//   strsorted = strarr.sort()
 
-
-mixsorted = arr3.sort()
-
-console.log(mixsorted)
+//   console.log(strsorted)
 
 
+// mixsorted = arr3.sort()
 
-//unshift - will add the elements at the beginning
+// console.log(mixsorted)
 
-//shift  -  will remove the element at the beginning 
 
-//push  - will add the elements to end 
 
-//pop - will remove the element at the end 
+// //unshift - will add the elements at the beginning
 
-arr8 = ["Raju", "ramesh", "naveen", "mahesh"]
+// //shift  -  will remove the element at the beginning 
 
-// arr8.shift()
+// //push  - will add the elements to end 
 
-// arr8.shift()
+// //pop - will remove the element at the end 
+
+// arr8 = ["Raju", "ramesh", "naveen", "mahesh"]
+
+// // arr8.shift()
+
+// // arr8.shift()
+
+// // console.log(arr8)
+
+// arr8[3] = "shashi"
 
 // console.log(arr8)
 
-arr8[3] = "shashi"
+// str = "Javascript python java c# Golang"
 
-console.log(arr8)
+// arr9 = str.split(" ")
 
-str = "Javascript python java c# Golang"
+// //split - convert the string to array
 
-arr9 = str.split(" ")
+// console.log(arr9)
 
-//split - convert the string to array
+// //join("")
 
-console.log(arr9)
+// st2 = arr9.join("")
 
-//join("")
+// console.log(st2)
 
-st2 = arr9.join("")
+// // reverse the string
 
-console.log(st2)
+// str3 = "reverse the string"
 
-// reverse the string
+// revstr = str3.split("").reverse().join("") 
 
-str3 = "reverse the string"
+// console.log(revstr)
 
-revstr = str3.split("").reverse().join("") 
+arr3 = ["Raju", 4, "bangalore", true, null, undefined]
+console.log(arr3.indexOf("bangalore"))
 
-console.log(revstr)
+//includes 
+
+arr4 = ["Raju", "Naveen", "Shoba", "Ramesh"]
+
+if (arr4.includes("Mahesh")) {
+
+  console.log("Element is present")
+}
+//foreach()
+
+arr = []
+
+//or
+
+// const array2 = new Array("eat", "sleep");
+
+// array2 = ["eat", "sleep"]
+
+arr5 = ["Raju", 4, "bangalore", true, null, undefined, "Raju", "Naveen", "Shoba", "Ramesh"]
+
+// arr6 = arr5.slice(4)
+
+// console.log(arr6)
+
+// arr7 = arr5.splice(5)
+
+// console.log(arr7)
+
+let colors = ['red', 'green', 'blue'];
+for (const i of colors) {
+  console.log(i);
+}
+
+menus = ["Admin",
+  "PIM",
+  "Leave",
+  "Time",
+  "Recruitment",
+  "My Info"]
+
+
+for (const i of menus) {
+  console.log(i);
+}
+
+
+str = "This is a sentence for Javascript example"
+
+//reverse the words 
+
+strarr = str.split(" ")
+
+console.log(strarr)
+
+finalstr = ""
+
+for(let i=0; i<=strarr.length-1; i++){
+
+   revstr = strarr[i].split("").reverse().join("")
+
+   finalstr = finalstr+ revstr+ " "
+}
+
+console.log(finalstr)
+
+word = "Javascript"
+revword = word.split("").reverse().join("")
+
+console.log(revword)
+
+
+arr7  = [a,b,c]
+
+arr8 = [1,2,3,4, 5]
+
+output:  [a,1,b,2,c,3,d,4,e,f]
+
+output:  [a,1,b,2,c,3,4,5]
+
+//appsirra
+
